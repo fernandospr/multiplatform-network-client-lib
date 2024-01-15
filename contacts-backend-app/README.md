@@ -4,7 +4,7 @@ Contains a backend app that exposes a controller to get, add and delete `Contact
 The `Contact`s are stored in memory.
 
 ### How to compile & run?
-1. You'll need to compile `contacts-common-lib` first, as explained above.
+1. You'll need to compile `contacts-common-lib` first, as explained [here](../contacts-common-lib/README.md).
 2. Open the project in your favorite IDE and run the main function from `Application.kt`.
 
 You can now perform GET, POST and DELETE requests to `/api/contacts`. E.g:

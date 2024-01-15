@@ -4,9 +4,10 @@ This multiplatform library exposes a `ContactsClient` class with functions to ge
 Internally, it performs these operations by connecting to `contacts-backend-app` using HTTP requests.
 
 ### How to compile the library for Android/JVM apps?
-1. To build this lib you'll need to compile `contacts-common-lib` first, as explained above.
+1. To build this lib you'll need to compile `contacts-common-lib` first, as explained [here](../contacts-common-lib/README.md).
 2. Execute `./gradlew publishToMavenLocal`. This task will publish in your `~/.m2/repository` folder.
   
 ### How to compile the library for iOS apps?
-1. Execute `./gradlew assembleContactsClientReleaseXCFramework`. This task will generate the framework in `build/XCFrameworks/release` of the library project.
-2. Copy the framework to the iOS client project.
+1. To build this lib you'll need to compile `contacts-common-lib` first, as explained [here](../contacts-common-lib/README.md).
+2. Execute `./gradlew assembleContactsClientReleaseXCFramework`. This task will generate the framework in `build/XCFrameworks/release` of the library project.
+3. Copy the framework to the iOS client project.

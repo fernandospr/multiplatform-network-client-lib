@@ -2,7 +2,7 @@
 Contains an Android App that lets you get, add and delete `Contact`s using the `contacts-client-lib`.
 
 ### How to compile & run?
-1. To build this app you'll need to compile `contacts-client-lib` first, as explained above.
+1. To build this app you'll need to compile `contacts-client-lib` first, as explained [here](../contacts-client-lib/README.md).
 2. `contacts-client-lib` requires you to set the base url of the `contacts-backend-app`. You can configure this in `MyApplication.kt`.
 3. Use Android Studio to launch the app.
 
