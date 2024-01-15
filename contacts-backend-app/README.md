@@ -10,7 +10,7 @@ The `Contact`s are stored in memory.
 You can now perform GET, POST and DELETE requests to `/api/contacts`. E.g:
 
 Request | cURL | Screenshot
-:-: | :-: | :-:
+:---: | :--- | :---:
 Get | `curl localhost:8080/api/contacts/1` | <img width="624" alt="Contacts - Server - Get" src="https://github.com/fernandospr/multiplatform-network-client-lib/assets/4404680/f41ed075-cf4a-4d04-bf03-d838e66329ce">
 Get all | `curl localhost:8080/api/contacts` | <img width="828" alt="Contacts - Server - Get all" src="https://github.com/fernandospr/multiplatform-network-client-lib/assets/4404680/f3883587-61dc-4d76-b749-23ac745f9145">
 Post | `curl -X POST -H "Content-Type: application/json" -d '{"id": "3", "name": "Mario", "number":"1234-5678"}' localhost:8080/api/contacts` | <img width="750" alt="Contacts - Server - Post" src="https://github.com/fernandospr/multiplatform-network-client-lib/assets/4404680/090a4325-8a1e-4062-babe-55a86d8423b0">
