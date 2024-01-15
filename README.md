@@ -7,3 +7,8 @@ This repository contains the following folders:
 * [contacts-android-client-app](contacts-android-client-app/README.md)
 * [contacts-ios-client-app](contacts-ios-client-app/README.md)
 * [contacts-backend-client-app](contacts-backend-client-app/README.md)
+
+### Architecture
+<p align="center" width="100%">
+  <img src="https://github.com/fernandospr/multiplatform-network-client-lib/assets/4404680/cbbde053-c740-4f61-b082-c0ba30c4a675"> 
+</p>
