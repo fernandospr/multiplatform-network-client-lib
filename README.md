@@ -36,6 +36,8 @@ The `Contact`s are stored in memory.
 1. You'll need to compile `contacts-common-lib` first, as explained above.
 2. Open the project in your favorite IDE and run the main function from `Application.kt`.
 
+You can now perform GET, POST and DELETE requests to /api/contacts. E.g: TODO PASTE SCREENSHOTS
+
 > Note: You must start this application so that the Android, iOS and backend clients using `contacts-client-lib` will be able to make HTTP requests.
 
 ## contacts-android-client-app
@@ -46,6 +48,8 @@ Contains an Android App that lets you get, add and delete `Contact`s using the `
 2. `contacts-client-lib` requires you to set the base url of the `contacts-backend-app`. You can configure this in `MyApplication.kt`.
 3. Use Android Studio to launch the app.
 
+TODO PASTE SCREENSHOTS
+
 ## ios-client-app
 Contains an iOS App that lets you get, add and delete `Contact`s using the `multiplatform-rest-lib`.
 
@@ -54,6 +58,8 @@ Contains an iOS App that lets you get, add and delete `Contact`s using the `mult
 2. `contacts-client-lib` requires you to set the base url of the `contacts-backend-app`. You can configure this in `Injector.swift`.
 3. Use Xcode to launch the app.
 
+TODO PASTE SCREENSHOTS
+
 ## backend-client-app
 Contains a Backend App that lets you get, add and delete `Contact`s using the `multiplatform-rest-lib`.
 
@@ -61,3 +67,5 @@ Contains a Backend App that lets you get, add and delete `Contact`s using the `m
 1. To build this app you'll need to compile `contacts-client-lib` first, as explained above.
 2. `contacts-client-lib` requires you to set the base url of the `contacts-backend-app`. You can configure this in `application.properties`.
 3. Open the project in your favorite IDE and run the main function from `Application.kt`.
+
+You can now perform GET, POST and DELETE requests to /api/contact-descriptions. E.g: TODO PASTE SCREENSHOTS
