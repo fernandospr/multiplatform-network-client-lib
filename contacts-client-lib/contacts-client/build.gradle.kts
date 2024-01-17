@@ -33,6 +33,9 @@ kotlin {
         iosSimulatorArm64()
     ).forEach {
         it.binaries.framework {
+            // Expose code from contacts-common external library
+            export("com.github.fernandospr:contacts-common:1.0.0")
+
             baseName = name
             xcf.add(this)
             isStatic = true
@@ -42,7 +45,9 @@ kotlin {
     val ktorVersion = "2.3.5"
     sourceSets {
         commonMain.dependencies {
+            // Using "api" to expose code from contacts-common external library
             api("com.github.fernandospr:contacts-common:1.0.0")
+
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
             implementation("io.ktor:ktor-client-core:$ktorVersion")
             implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
