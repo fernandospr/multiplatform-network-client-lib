@@ -22,7 +22,7 @@ kotlin {
 
     jvm()
 
-    val name = "ContactsDomain"
+    val name = "ContactsCommon"
     val xcf = XCFramework(name)
     listOf(
         iosX64(),
